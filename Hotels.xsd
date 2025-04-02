@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="Hotels">
+        <complexType>
+            <sequence>
+                <!-- hotel unbounded so we can have multiple -->
+                <element name="Hotel" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="Name" type="string"/>
+                            <!-- phone unbounded so we can have multiple -->
+                            <element name="Phone" type="string" maxOccurs="unbounded"/>
+
+                            <!-- address of the hotel -->
+                            <element name="Address">
+                                <complexType>
+                                    <sequence>
+                                        <!-- address details -->
+                                        <element name="Number" type="string"/>
+                                        <element name="Street" type="string"/>
+                                        <element name="City" type="string"/>
+                                        <element name="State" type="string"/>
+                                        <element name="Zip" type="string"/>
+                                    </sequence>
+                                    <!-- airport is required attribute -->
+                                    <attribute name="NearestAirport" type="string" use="required"/>
+                                </complexType>
+                            </element>
+
+                        </sequence>
+
+                        <!-- rating is optional attribute -->
+                        <attribute name="Rating" type="decimal" use="optional"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
