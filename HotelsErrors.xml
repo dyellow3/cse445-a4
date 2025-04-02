@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+    <Hotel Rating="9.5">
+        <Name>The Canyon Suites at The Phoenician</Name>
+        <Phone>+1-480-941-8200</Phone>
+        <Address>
+            <Number>6000</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="8.7">
+        <Name>Four Seasons Resort Scottsdale at Troon North</Name>
+        <Phone>+1-480-515-5700</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>10600</Number>
+            <Street>E Crescent Moon Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85262</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Sanctuary Camelback Mountain, A Gurney's Resort and Spa</Name>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>5700</Number>
+            <Street>E McDonald Dr</Street>
+            <City>Paradise Valley</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>JW Marriott Scottsdale Camelback Inn Resort and Spa</Name>
+        <Phone>+1-480-948-1700</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>5402</Number>
+            <Street>E Lincoln Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="8.9">
+        <Name>The Phoenician, a Luxury Collection Resort</Name>
+        <Phone>+1-480-941-8200</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>6000</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+    </Hotel>
+
+    <Hotel Rating="8.7">
+        <Name>Fairmont Scottsdale Princess</Name>
+        <Name>Fairmont Scottsdale Princess Number Two</Name>
+        <Phone>+1-480-585-4848</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>7575</Number>
+            <Street>E Princess Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85255</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Mountain Shadows Resort Scottsdale</Name>
+        <Phone>+1-480-624-5400</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>5445</Number>
+            <Street>E Lincoln Dr</Street>
+            <City>Paradise Valley</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="8.9">
+        <Name>Andaz Scottsdale Resort and Bungalows</Name>
+        <Phone>+1-480-368-1234</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>6114</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Hotel Valley Ho</Name>
+        <Phone>+1-480-376-2600</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>6850</Number>
+            <Street>E Main St</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="8.9">
+        <Name>Omni Scottsdale Resort and Spa at Montelucia</Name>
+        <Phone>+1-480-627-3200</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>4949</Number>
+            <Street>E Lincoln Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
