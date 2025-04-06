@@ -30,7 +30,7 @@
                         </sequence>
 
                         <!-- rating is optional attribute -->
-                        <attribute name="Rating" type="decimal" use="optional"/>
+                        <attribute name="Rating" type="string" use="optional"/>
                     </complexType>
                 </element>
             </sequence>
