@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotels 
+    xmlns="http://venus.sod.asu.edu/WSRepository/xml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd">
+    
     <Hotel Rating="9.5">
         <Name>The Canyon Suites at The Phoenician</Name>
         <Phone>+1-480-941-8200</Phone>
